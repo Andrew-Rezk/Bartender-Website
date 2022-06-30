@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/logo3.png" type="image/icon type">
+    <script src="https://kit.fontawesome.com/d9f74c8256.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
+    <title>Leo Marin</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark py-3">
+        <div class="container">
+            <!-- data-bs-target points to the div of menu items which we want to show when button is clicked -->
+            <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu">
+            <!-- hamburger menu icon in span tag -->
+            <span class="navbar-toggler-icon"></span>
+            </button>
+             <!-- collapse & navbar-collapse classes are menu classes which collapses on smaller screens -->
+             <div class="collapse navbar-collapse" id="navmenu">
+                <!-- need navbar-nav class for every ul list in a navbar & ms-auto to put li items on right side-->
+                <ul class="navbar-nav ms-auto">
+                    <!-- need nav-item for every li item -->
+                    <li class="nav-item">
+                        <!-- every link inside nav needs nav-link class -->
+                        <a href="/index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/menu.html" class="nav-link">Cocktails Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Body -->
+    <a href="/menu.html" class="return"><i class="fa-solid fa-arrow-left-long"> Main Menu</i></a>
+
+    <div class="container">
+        <h1>Italian/Spanish</h1>
+        <hr style="color: rgb(210, 156, 29);">
+        <p class="phone-option">Click one of the options below for more details</p>
+    </div>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark py-3" id="menu-nav">
+            <div class="container">
+                <div class="">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">                           
+                            <a href="/index.html" class="nav-link left menu-items">Whisky</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/menu.html" class="nav-link left menu-items">Scotch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/gallery.html" class="nav-link left menu-items">Rum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/contact.html" class="nav-link left menu-items">Vodka</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/contact.html" class="nav-link left menu-items">Tequila</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/contact.html" class="nav-link left menu-items">Gin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/contact.html" class="nav-link left menu-items">Luxe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--footer-->
+    <hr style="color: rgb(210, 156, 29);">
+    <footer>
+        <div id="logo2">
+        <img src="/images/logo3(1).png" class="mx-auto d-block" id="logo" alt="logo">
+        </div>
+        <div class="container">
+            <div class="row justify-content-between text-center">
+                <div class="col-4" >
+                    <nav class="navbar-dark py-3" >
+                        <div>
+                            <ul class="navbar-nav ms-auto">
+                                <li>
+                                    <p style="color: rgb(210, 156, 29);"> Quick Links </p>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/index.html" class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/menu.html" class="nav-link">Cocktails Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/gallery.html" class="nav-link">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/contact.html" class="nav-link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="col-4">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><p style="color: rgb(210, 156, 29);"> Socials </p></li>
+                        <li class="nav-item mb-5"><a href= "mailto: 1leandromarin@gmail.com" target="_blank"><i class="fa fa-envelope fa-2xl" aria-hidden="true"></i></a></li>
+                        <li class="nav-item mb-5"><a href="https://www.instagram.com/_m.xaleandro/?hl=en" target="_blank"><i class="fa-brands fa-instagram fa-2xl" alt="instagram"></i></a></li>
+                        <li class="nav-item"><a href="https://www.linkedin.com/in/leandro-marin-b-eng-170044170/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl" alt="linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

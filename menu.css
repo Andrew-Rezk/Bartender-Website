@@ -1,3 +1,8 @@
+h1{
+  margin-top: 0;
+  font-size: 3rem;
+}
+
 h2 {
     color: rgb(210, 156, 29);
     width: 33.33%;
@@ -5,6 +10,11 @@ h2 {
     margin-top: 1rem;
     justify-content: center;
     display: flex;
+  }
+
+  .phone-option{
+    color: rgb(210, 156, 29);
+    display: none;
   }
 
   .images {
@@ -20,4 +30,66 @@ h2 {
   .images:hover {
     cursor: pointer;
   }
+
+  #menu-nav{
+    width: 90%;
+    margin: auto;
+    font-size: 25px; 
+  }
+
+  .navbar-nav .nav-link {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.menu-items{
+  color: rgb(210, 156, 29) !important;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+a.left
+{
+    position: relative;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(210, 156, 29);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.left:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  #menu-nav{
+    width: 50%;
+    margin: auto; 
+  }
+  a.left:hover:before {
+    visibility: none;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .phone-option {
+    display: block;
+  }
+  .images{
+    height: 100px;
+    width: 100px;
+  }
+}
   
