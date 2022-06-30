@@ -1,0 +1,23 @@
+h2 {
+    color: rgb(210, 156, 29);
+    width: 33.33%;
+    margin: auto;
+    margin-top: 1rem;
+    justify-content: center;
+    display: flex;
+  }
+
+  .images {
+    border-radius: 50% !important;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-top: 1rem;
+    justify-content: center;
+    display: flex;
+  }
+
+  .images:hover {
+    cursor: pointer;
+  }
+  
